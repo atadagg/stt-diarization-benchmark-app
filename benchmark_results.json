@@ -1,0 +1,112 @@
+{
+  "stt": {
+    "whisper-tiny": [
+      {
+        "meeting": "ES2004a",
+        "duration_s": 300.0,
+        "latency_ms": 16601,
+        "rtf": 0.055,
+        "wer_pct": 34.4,
+        "transcript_preview": "We're not allowed to do that in the light, so we don't see that in the best way.  No.  Okay.  That's right.  Am I suppos"
+      },
+      {
+        "meeting": "ES2004b",
+        "duration_s": 300.0,
+        "latency_ms": 27368,
+        "rtf": 0.091,
+        "wer_pct": 33.3,
+        "transcript_preview": "Help.  It's up there.  That's green black.  Just down.  I don't know. I'm not ready to.  It's up there.  All right. Okay"
+      },
+      {
+        "meeting": "ES2004c",
+        "duration_s": 300.0,
+        "latency_ms": 9293,
+        "rtf": 0.031,
+        "wer_pct": 24.5,
+        "transcript_preview": "I'll wait until you're all in a big time.  Good grief.  Okay.  I think we put in these guns.  Oh.  That's right, that's "
+      },
+      {
+        "meeting": "ES2004d",
+        "duration_s": 300.0,
+        "latency_ms": 11864,
+        "rtf": 0.04,
+        "wer_pct": 35.3,
+        "transcript_preview": "If you leave them on her timing, it's look like a needle of a whole time.  It's someone's.  I'm talking to you.  Okay, y"
+      },
+      {
+        "meeting": "IS1009a",
+        "duration_s": 300.0,
+        "latency_ms": 8947,
+        "rtf": 0.03,
+        "wer_pct": 28.1,
+        "transcript_preview": "And then where's the other one?  I think the first thing we do here, I think the first thing we do,  is to do ourselves,"
+      }
+    ],
+    "whisper-small.en": [
+      {
+        "meeting": "ES2004a",
+        "duration_s": 300.0,
+        "latency_ms": 77089,
+        "rtf": 0.257,
+        "wer_pct": 33.7,
+        "transcript_preview": "Are we, we're not allowed to dim the lights so everyone can see that a bit better?  Yeah.  Okay.  That's fine.  Am I sup"
+      },
+      {
+        "meeting": "ES2004b",
+        "duration_s": 300.0,
+        "latency_ms": 50129,
+        "rtf": 0.167,
+        "wer_pct": 16.6,
+        "transcript_preview": "Help.  What's up there?  The screen's black.  Just do it.  I'm not ready to.  No, I'm not.  Oh, right, okay.  Okay, that"
+      },
+      {
+        "meeting": "ES2004c",
+        "duration_s": 300.0,
+        "latency_ms": 43872,
+        "rtf": 0.146,
+        "wer_pct": 25.6,
+        "transcript_preview": "I'll wait until you're all in, back to the top.  Ah, I'm gonna crave something, boom.  Okay.  Okay.  Three, four, three,"
+      },
+      {
+        "meeting": "ES2004d",
+        "duration_s": 300.0,
+        "latency_ms": 74067,
+        "rtf": 0.247,
+        "wer_pct": 33.8,
+        "transcript_preview": "She leaves him on the whole time, he gets to look like a noodle the whole time.  We decided to use a kinetic charger, st"
+      },
+      {
+        "meeting": "IS1009a",
+        "duration_s": 300.0,
+        "latency_ms": 55624,
+        "rtf": 0.185,
+        "wer_pct": 20.2,
+        "transcript_preview": "And then where's the other one?  Oh, here.  Okay. Everybody ready?  I think so.  I think the first thing we do is introd"
+      }
+    ]
+  },
+  "diarization": {
+    "sherpa-speakernet": [
+      {
+        "meeting": "ES2004a",
+        "error": "'list' object has no attribute 'segments'"
+      },
+      {
+        "meeting": "ES2004b",
+        "error": "'list' object has no attribute 'segments'"
+      },
+      {
+        "meeting": "ES2004c",
+        "error": "'list' object has no attribute 'segments'"
+      },
+      {
+        "meeting": "ES2004d",
+        "error": "'list' object has no attribute 'segments'"
+      },
+      {
+        "meeting": "IS1009a",
+        "error": "'list' object has no attribute 'segments'"
+      }
+    ]
+  }
+}

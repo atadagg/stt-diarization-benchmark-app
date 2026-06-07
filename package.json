@@ -1,0 +1,41 @@
+{
+  "name": "benchmark-app",
+  "version": "1.0.0",
+  "main": "src/App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "RCT_NEW_ARCH_ENABLED=0 expo run:ios"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "7.16.2",
+    "@react-navigation/native": "7.2.5",
+    "buffer": "^6.0.3",
+    "expo": "~56.0.8",
+    "expo-asset": "^56.0.15",
+    "expo-battery": "~56.0.4",
+    "expo-status-bar": "~56.0.4",
+    "react": "^19.2.3",
+    "react-native": "0.85.3",
+    "react-native-document-picker": "9.3.1",
+    "react-native-fs": "2.20.0",
+    "react-native-safe-area-context": "5.8.0",
+    "react-native-screens": "~4.25.2",
+    "react-native-zip-archive": "8.0.1",
+    "whisper.rn": "0.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.29.7",
+    "@types/react": "~19.2.16",
+    "@types/react-native": "~0.73.0",
+    "babel-plugin-transform-inline-environment-variables": "0.4.4",
+    "metro": "~0.84.4",
+    "metro-cache": "~0.84.4",
+    "metro-config": "~0.84.4",
+    "metro-resolver": "~0.84.4",
+    "metro-runtime": "~0.84.4",
+    "metro-source-map": "~0.84.4",
+    "metro-transform-worker": "~0.84.4",
+    "typescript": "~6.0.3"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.flac
+*.wav
+
+# Google Cloud service account keys (contain private keys - never commit)
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json

@@ -1,0 +1,49 @@
+{
+  "sherpa-speakernet": [
+    {
+      "meeting": "ES2004a",
+      "duration_s": 300.0,
+      "latency_ms": 26465,
+      "rtf": 0.088,
+      "der_pct": 41.5,
+      "num_speakers": 13,
+      "num_segments": 30
+    },
+    {
+      "meeting": "ES2004b",
+      "duration_s": 300.0,
+      "latency_ms": 30801,
+      "rtf": 0.103,
+      "der_pct": 27.6,
+      "num_speakers": 19,
+      "num_segments": 37
+    },
+    {
+      "meeting": "ES2004c",
+      "duration_s": 300.0,
+      "latency_ms": 30283,
+      "rtf": 0.101,
+      "der_pct": 23.9,
+      "num_speakers": 14,
+      "num_segments": 29
+    },
+    {
+      "meeting": "ES2004d",
+      "duration_s": 300.0,
+      "latency_ms": 34745,
+      "rtf": 0.116,
+      "der_pct": 81.7,
+      "num_speakers": 24,
+      "num_segments": 46
+    },
+    {
+      "meeting": "IS1009a",
+      "duration_s": 300.0,
+      "latency_ms": 31045,
+      "rtf": 0.103,
+      "der_pct": 44.0,
+      "num_speakers": 23,
+      "num_segments": 47
+    }
+  ]
+}

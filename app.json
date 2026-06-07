@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "BenchmarkApp",
+    "slug": "benchmark-app",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0a0a",
+    "ios": {
+      "supportsTablet": true,
+      "deploymentTarget": "16.4",
+      "bundleIdentifier": "com.benchmarkapp.dev",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Microphone access is not used; audio files are loaded from storage.",
+        "NSSpeechRecognitionUsageDescription": "Speech recognition runs on-device via bundled models."
+      }
+    },
+    "android": {
+      "package": "com.benchmarkapp.dev",
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0a"
+      },
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "plugins": [],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "newArchEnabled": false,
+    "extra": {
+      "eas": {
+        "projectId": "775d6c0e-74df-450d-823a-947ed4ba504f"
+      }
+    },
+    "owner": "atadawg"
+  }
+}

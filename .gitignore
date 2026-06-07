@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native build artifacts
+ios/
+android/
+build/
+
+# Python
+__pycache__/
+*.pyc
+
+# Benchmark data/cache
+ami_benchmark/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+*.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Audio test files — drop your WAVs here locally, don't commit them
+assets/audio/*.wav
+assets/audio/*.mp3
+assets/audio/*.m4a
+assets/audio/*.flac
